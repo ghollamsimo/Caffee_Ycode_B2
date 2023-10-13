@@ -1,0 +1,53 @@
+.header-contact{
+    background-image: 
+  linear-gradient(to right bottom, 
+   rgba(31, 33, 34, 0.8),
+   rgba(40, 40, 40, 0.8)),
+   url(/assets/brown.jpg);
+   background-size: cover;
+   height: 70vh;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 50% 40%;
+}
+.right-contact{
+    background-image: 
+     url(/assets/contact.png);
+     background-size: cover;
+     height: 70vh;
+     width: 30rem;
+}
+.left-contact{
+   
+}
+.left-contact input{
+    padding: 20px 60px;
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-contact textarea{
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+}
+.label-name{
+    position: relative;
+    left: 60px;
+}
+textarea{
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+}
+.label-textarea{
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
