@@ -14,8 +14,14 @@
     color: white;
 }
 .map-location{
-    background: rgba(127, 63, 28, 0.9);
-    height: 100vh;
+    background: 
+    linear-gradient(to right bottom, 
+    rgba(31, 33, 34, 0.8),
+    rgba(40, 40, 40, 0.432)),
+    url(../assets/customers.png);
+    background-repeat: no-repeat;
+    height: 91vh;
+    overflow-y: hidden;
     color: #fff;
 }
 .map-location h1{
@@ -35,4 +41,5 @@
 }
 .right-location{
     width: 50rem;
+    position: relative;
 }
